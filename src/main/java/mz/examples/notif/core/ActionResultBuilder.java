@@ -7,7 +7,7 @@ import mz.examples.notif.core.impl.SimpleActionResultBuilder;
  */
 public interface ActionResultBuilder<T> extends NotifsCollector {
     /**
-     * Sets the value of the successful result to be. If errors were
+     * Sets the value of the successful result. If errors were
      * added, it will throw an {@link UnsupportedOperationException}.
      *
      * @param value Value of the successful result to build.
